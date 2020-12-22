@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/avtCheckin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/noimage" />
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:id="@+id/txtHoTenCheckin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Ho ten nguoi check in"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgAnhCheckin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/noimage" />
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/txtNoiDungCheckin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Noi dung binh luan" />
+
+    <TextView
+        android:id="@+id/txtMaCheckin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*mã checkin ẩn đi*"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/txtUserCheckin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*user ẩn đi*"
+        android:visibility="invisible"/>
+</LinearLayout>

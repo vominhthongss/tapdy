@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemQuan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/hinhQuan"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_weight="0"
+        app:srcCompat="@drawable/noimage" />
+
+    <LinearLayout
+        android:id="@+id/thongTinQuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tenQuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Tên quán ăn"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/maQuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="       *maquan*"
+            android:textSize="8dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/moTaQuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Mô tả quán ăn"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/diaChiQuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Địa chỉ quán ăn" />
+
+        <TextView
+            android:id="@+id/cachBan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="*cach ban*"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10sp" />
+    </LinearLayout>
+</LinearLayout>

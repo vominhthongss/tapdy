@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/xoa_binhluan_context_menu"
+        android:title="Xóa bình luận"/>
+<!--    <item-->
+<!--        android:id="@+id/sua_binhluan_context_menu"-->
+<!--        android:title="Sửa bình luận"/>-->
+
+
+</menu>

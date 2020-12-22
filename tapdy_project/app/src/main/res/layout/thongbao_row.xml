@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/chamDo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/danhdau_thongbao" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tenThongBao"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="*tênthông báo*"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/maThongBao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*mã thông báo*"
+            android:textSize="8sp"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/ngayThongBao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*ngày thông báo*"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/noiDungThongBao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*Nội dung*"
+            android:textStyle="italic"
+            android:visibility="invisible"
+            android:textSize="0dp"/>
+    </LinearLayout>
+</LinearLayout>

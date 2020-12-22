@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuAcccount.BaoLoiActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="BÁO LỖI"
+        android:textStyle="bold"
+        android:textSize="24dp" />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nội dung báo lỗi của bạn: "/>
+    <EditText
+        android:id="@+id/noiDungBaoLoi"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="Bạn đang gặp phải vấn đề gì ?" />
+
+    <ProgressBar
+        android:id="@+id/progressBarBaoLoi"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/guiBaoLoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GỬI"/>
+
+    <Button
+        android:id="@+id/quayLaiBaoLoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUAY LẠI" />
+</LinearLayout>

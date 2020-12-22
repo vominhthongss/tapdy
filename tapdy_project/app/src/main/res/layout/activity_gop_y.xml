@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuAcccount.GopYActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="GÓP Ý"
+        android:textSize="24dp" />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nội dung góp ý của bạn: "/>
+    <EditText
+        android:id="@+id/noiDungGopY"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="Những lời ban góp ý sẽ giúp ứng dụng hoàn thiện hơn." />
+
+    <ProgressBar
+        android:id="@+id/progressBarGopY"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/guiGopY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GỬI"/>
+
+    <Button
+        android:id="@+id/quayLaiGopY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUAY LẠI" />
+</LinearLayout>

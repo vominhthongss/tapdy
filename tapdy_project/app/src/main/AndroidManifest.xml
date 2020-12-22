@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tapdy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logotapdy"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".DoiMatKhauActivity"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".MenuAcccount.HoSoActivity" />
+        <activity
+            android:name=".ChinhSuaHoSoActivity"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".MenuAcccount.HoSoActivity" />
+        <activity
+            android:name=".MenuAcccount.ChinhSachQuyDinhActivity"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MenuAcccount.BaoLoiActivity"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MenuAcccount.GopYActivity"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MenuAcccount.HoSoActivity"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChiTietThongBaoActivity"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".XemCheckinActivity"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".ChiTietQuanActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BinhLuanActivity"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".ChiTietQuanActivity" />
+        <activity
+            android:name=".CheckinActivity"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".ChiTietQuanActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChiTietQuanActivity"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SearchActivity"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

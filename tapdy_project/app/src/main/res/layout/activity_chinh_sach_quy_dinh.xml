@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuAcccount.ChinhSachQuyDinhActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:text="CHÍNH SÁCH QUY ĐỊNH"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="QUY ĐỊNH SỬ DỤNG "/>
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tapdy là tài sản của Công ty Phần mềm VMT Software. Với việc sử dụng các thông tin, dịch vụ, đồng nghĩa với việc bạn đã chấp nhận hoàn toàn các quy định sử dụng dưới đây. Mời bạn vui lòng đọc kỹ các quy định sử dụng phần mềm dưới đây trước khi quyết định sử dụng thông tin, dịch vụ, sản phẩm của chúng tôi." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="ĐĂNG KÝ SỬ DỤNG VÀ ĐĂNG NHẬP TÀI KHOẢN"/>
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khi đăng ký sử dụng tài khoản trên Tapdy, bạn cần cung cấp cho phần mềm các thông tin cá nhân chính xác, đầy đủ và mới nhất. Khi chọn mật khẩu cho tài khoản truy nhập, hãy chọn mật khẩu theo cách mà không ai có thể dễ dàng đoán được.
+
+Sau khi đăng ký, bạn chịu trách nhiệm bảo quản mật khẩu và không nên tiết lộ mật khẩu cho bất cứ ai hoặc ủy quyền, cho phép bất cứ người nào sử dụng vào bất cứ mục đích nào. Tapdy sẽ luôn coi việc truy nhập và sử dụng các dịch vụ trên Tapdy bằng tên truy nhập và mật khẩu của một người nào đó như là việc truy nhập và sử dụng các dịch vụ bởi chính khách hàng đó, bất kể tên truy nhập và mật khẩu có thể được sử dụng bởi người khác mà chủ sở hữu không biết hoặc không cho phép.
+
+Nếu phát hiện ra bất cứ người nào biết mật khẩu hoặc sử dụng mật khẩu của mình để truy nhập và sử dụng các dịch vụ trên trang web, bạn cần thông báo ngay lập tức cho chúng tôi và thay đổi mật khẩu hoặc yêu cầu website hỗ trợ cài đặt mật khẩu mới."/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/quayLaiChinhSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUAY LẠI"/>
+</LinearLayout>
